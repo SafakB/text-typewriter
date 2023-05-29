@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>Typewriter Text Example</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Safak Bahce">
+    <meta name="description" content="Typewriter Text Pure Javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+        }
+
+        body {
+            background: #8c94ce;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-top: 50px;
+        }
+
+        .typewriter {
+            width: 60%;
+            background: #134c92;
+            color: #fff;
+            font-family: monospace;
+            padding: 25px;
+            margin: 0 auto;
+            margin-top: 130px;
+            border-radius: 15px;
+        }
+
+        .author {
+            text-align: center;
+            margin-top: 50px;
+            position: absolute;
+            bottom: 15px;
+            width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Typewriter Text Effect</h1>
+    <div class="typewriter"
+        data-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac semper eros, in interdum erat. Pellentesque eget massa pellentesque, tempus ex vel, bibendum arcu. Sed eget fringilla velit. Vestibulum sagittis vel purus vel volutpat. Sed commodo egestas pulvinar. In molestie, erat id blandit tempor, tortor neque rutrum turpis, quis pharetra turpis tortor vitae lorem. Nullam maximus bibendum ipsum, in suscipit nisl fringilla vitae."
+        data-speed="40">
+    </div>
+    <div class="author">
+        <p><a href="github.com/SafakB/">Safak Bahce</a></p>
+    </div>
+    <script src="js/typewriter.js"></script>
+</body>
+
+</html>
